@@ -12,7 +12,7 @@ Para conhecer Flex, pode utilizar texto [Flex in a Nutshell](../resources/21-Fle
 
 ## Classes de _tokens_ 
 
-In your lexer implementation, consider the following classes of tokens in the language:
+Em sua implementação do analisador léxico, considere as seguintes classes de _tokens_ da linguagem:
 
 __ID__      Identifier  
 __NUM__     Literal decimal (integer)  
@@ -37,7 +37,6 @@ $ ./lexer main.c main.lex
 ```
 
 ## Exemplo de arquivo de saída gerado pelo analisador léxico (main.lex)
-
 ```
 (1,KEY,"void")
 (1,ID,"main")
@@ -56,15 +55,22 @@ $ ./lexer main.c main.lex
 (4,SYM,";")
 (5,SYM,"}")
 ```
+
+## Scripts
 Não se esqueça de criar dois arquivos em sua pasta de submissão: __compile.sh__ e __run.sh__ para compilar e executar o seu código:
 
-+ compile.sh (se estiver usando a ferramenta Flex)
++ __compile.sh__ (se estiver usando a ferramenta Flex)
 ```
 flex lexer.lex
 gcc -o lexer lex.yy.c -ll
 ```
 
-+ run.sh (recebe dois argumentos -- nomes de arquivos)
++ __run.sh__ (recebe dois argumentos que deverão ser nomes de arquivos)
 ```
 ./lexer $1 $2
 ```
+
+__Observação Importante sobre__ ___Line Endings___: Arquivos de texto criados com DOS/Windows machines usam _carriage return_ _line feed_ ("\r\n") para terminar uma linha, enquando que os criados com Unix usam apenas o _line feed_ ("\n").
+
+-----
+Material cedido pelo Prof. Vinicius.
