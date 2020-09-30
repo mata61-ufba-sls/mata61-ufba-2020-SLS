@@ -1,5 +1,9 @@
 # Recursos
 
++ [Livro online de Douglas Thain](https://www3.nd.edu/~dthain/compilerbook/)
++ [Lex e Yacc](http://dinosaur.compilertools.net/)
+
+
 ## Material 
 
 Ver a turma __MATA61_SLS_2020__ no [Classroom da UFBA](https://gsuite.google.com/dashboard) para ter acesso aos vídeos e outros materiais disponibilizados.
