@@ -31,8 +31,40 @@ void main(void)
 ```
 
 ## Como executar (dois argumentos: entrada e saída)
-O programa deve ler a entrada a partir de um arquivo fonte (_source_) e escrever a saída em outro arquivo (_target_):
-````
+O programa deve ler a entrada a partir de um arquivo (_source_) e escrever a saída em outro arquivo (_target_):
+```
 $ ./lexer main.c main.lex
 ```
 
+## Exemplo de arquivo de saída gerado pelo analisador léxico (main.lex)
+
+```
+(1,KEY,"void")
+(1,ID,"main")
+(1,SYM,"(")
+(1,KEY,"void")
+(1,SYM,")")
+(2,SYM,"{")
+(3,KEY,"int")
+(3,ID,"a")
+(3,SYM,";")
+(4,ID,"a")
+(4,SYM,"=")
+(4,NUM,"4")
+(4,SYM,"+")
+(4,NUM,"5")
+(4,SYM,";")
+(5,SYM,"}")
+```
+Não se esqueça de criar dois arquivos em sua pasta de submissão: __compile.sh__ e __run.sh__ para compilar e executar o seu código:
+
++ compile.sh (se estiver usando a ferramenta Flex)
+```
+flex lexer.lex
+gcc -o lexer lex.yy.c -ll
+```
+
++ run.sh (recebe dois argumentos -- nomes de arquivos)
+```
+./lexer $1 $2
+```
