@@ -20,6 +20,11 @@ __KEY__     Keyword
 __SYM__     Lexical Symbol  
 __ERROR__   Lexeme of the first error found  
 
+Comentários e caracteres de espacejamento (_white space_) devem ser descartados durante a fase de análise léxica do compilador. Você deve imprimir o número da linha na qual o _token_ foi encontrado, inclusive no caso de erro. O analisador léxico deve parar após encontrar o primeiro erro léxico.
+No caso de erro por um comentário não fechado (_unfinished comment error_), o lexema ```'/*' ``` deve ser o _token_ __ERROR__. 
+O formato de saída é: 
+
+``` (line_num,token_type,"lexeme") ```
   
 ## Exemplo de arquivo de entrada (main.c)
 ```
