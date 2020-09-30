@@ -14,13 +14,13 @@ Para conhecer Flex, pode utilizar texto [Flex in a Nutshell](../resources/21-Fle
 
 In your lexer implementation, consider the following classes of tokens in the language:
 
-```
-__ID__      Identifier
-__NUM__     Literal decimal (integer)
-__KEY__     Keyword
-__SYM__     Lexical Symbol
-__ERROR__   Lexeme of the first error found
- ``` 
+
+__ID__      Identifier  
+__NUM__     Literal decimal (integer)  
+__KEY__     Keyword  
+__SYM__     Lexical Symbol  
+__ERROR__   Lexeme of the first error found  
+
   
 * Exemplo de arquivo de entrada (main.c)
 
