@@ -24,7 +24,7 @@ Comentários e caracteres de espacejamento (_white space_) devem ser descartados
 No caso de erro por um comentário não fechado (_unfinished comment error_), o lexema ```'/*' ``` deve ser o _token_ __ERROR__. 
 O formato de saída é: 
 
-``` (line_num,token_type,"lexeme") ```
+``` (line_num,token_class,"lexeme") ```
   
 ## Exemplo de arquivo de entrada (main.c)
 ```
