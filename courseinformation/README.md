@@ -60,9 +60,13 @@ Projetar e implementar um compilador (incluindo Analisador Léxico, Analisador S
    - Prova 1: Análise Léxica, Análise Sintática (Top-down e Bottom-up), Análise Semântica (Escopo e Tipos) - offline, múltipla escolha, correção automática, 10 questões - 24 horas no ar.
    - Prova 2: Ambiente de execução, Geração de Código, Alocação de registradores, Gerenciamento Automático de Memória -  offline, múltipla escolha, correção automática, 10 questões - 24 horas no ar.
 
-### Fóruns
+### Fórum de Discussão
+
+   - Discord
 
 ### Exercícios Individuais
+
+   - Classroom - UFBA
 
 ### Pesos
 
@@ -71,6 +75,8 @@ Projetar e implementar um compilador (incluindo Analisador Léxico, Analisador S
 + 45% Projeto e implementação de um compilador (4 trabalhos práticos) em equipe de até 3 pessoas.
 
 ## Material do Curso
+
+   - Classroom - UFBA
 
 ## Referênciais bibliográficas
 
