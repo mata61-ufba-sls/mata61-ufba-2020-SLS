@@ -1,14 +1,17 @@
 # Recursos
 
+## Material 
+
+Ver a turma __MATA61_SLS_2020__ no [Classroom da UFBA](https://gsuite.google.com/dashboard) para ter acesso aos vídeos e outros materiais disponibilizados.
+
 ## Links
 
-
-### Sobre github
+## Sobre github
 
 + [Git Basics - Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 + [Try Git](https://try.github.io/levels/1/challenges/1)
 
-### Sobre markdown
+## Sobre markdown
 
 + [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
 + [The Ultimate Guide to Markdown](https://blog.ghost.org/markdown/)
