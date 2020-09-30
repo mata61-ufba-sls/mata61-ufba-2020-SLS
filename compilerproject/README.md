@@ -14,7 +14,6 @@ Para conhecer Flex, pode utilizar texto [Flex in a Nutshell](../resources/21-Fle
 
 In your lexer implementation, consider the following classes of tokens in the language:
 
-
 __ID__      Identifier  
 __NUM__     Literal decimal (integer)  
 __KEY__     Keyword  
@@ -22,8 +21,7 @@ __SYM__     Lexical Symbol
 __ERROR__   Lexeme of the first error found  
 
   
-* Exemplo de arquivo de entrada (main.c)
-
+## Exemplo de arquivo de entrada (main.c)
 ```
 void main(void)
 {
@@ -31,3 +29,10 @@ void main(void)
   a = 4 + 5;
 }
 ```
+
+## Como executar (dois argumentos: entrada e saída)
+O programa deve ler a entrada a partir de um arquivo fonte (_source_) e escrever a saída em outro arquivo (_target_):
+````
+$ ./lexer main.c main.lex
+```
+
