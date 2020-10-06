@@ -25,7 +25,7 @@ int gcd (int u, int v) {
     else 
       return gcd(v,u-u/v*v);
 
-    /* u-u/v*v == u mod v */
+// u-u/v*v == u mod v 
 }
 
 void main(void) { 
