@@ -11,11 +11,10 @@ O objetivo deste projeto é promover a aquisição de experiência na implementa
 O projeto do compilador tem 4 partes e cada uma será avaliada separadamente.  Seu compilador deverá ser implementado em _C/C++_ e deverá ser escrito com o apoio de ferramentas de geração tais como _Flex_ e _Bison_. Alguns exemplos de programas em _C-_ serão disponibilizados em [Recursos](../resources/README.md).
 
 ## Partes do Compilador
-+ [Parte I: Análise Léxica](./lexicalanalyser/README.md)
-+ Parte II: Análise Sintática
-+ Parte III: Análise Semática
-+ Parte IV: Geração de Código
-
++ [Parte I: Análise Léxica](./lexicalanalyser/README.md) - Individual
++ Parte II: Análise Sintática - em Equipe
++ Parte III: Análise Semática - em Equipe
++ Parte IV: Geração de Código - em Equipe
 
 -----
 Material cedido pelo Prof. Vinicius.
