@@ -13,7 +13,7 @@ As palavras-chave são reservadas e devem ser escritam em letras minúsculas.
 2. Símbolos especiais
 
 ```
-  +  -  *  /  <  <=  >  >=  ==  !=  =  ;  ,  (  )  [  ]  {  }  /*  */
+  +  -  *  /  <  <=  >  >=  ==  !=  =  ;  ,  (  )  [  ]  {  }  //
 ```
 
  3. ID (identificadores) e NUM (números inteiros)
