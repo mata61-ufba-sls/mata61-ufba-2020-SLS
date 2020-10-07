@@ -42,16 +42,16 @@ Uso de vídeo-aula expositiva, fórum de discussão, estudo dirigido, trabalhos 
 ## Avaliação de Aprendizagem
 
 Os seguintes dispositivos de avaliação processual ou formativa, serão utilizados:
-+ individual - diário online, provas, exercícios e quiz, com avaliação do docente;
-+ em equipe - trabalhos práticos, com avaliação do docente e por pares.
++ individual - um trabalho prático (analisador léxico),  diário online, provas, exercícios e quiz, com avaliação do docente;
++ em equipe - três trabalhos práticos, com avaliação do docente e por pares.
 
-A participação do estudante será aferida por meio de sua participação individual no fórum da disciplina, na realização das tarefas disponíveis no ambiente virtual de aprendizagem, exercícios, quizzes e nos trabalhos em equipe.
+A participação do estudante será aferida por meio de sua participação individual no fórum da disciplina, na realização das tarefas disponíveis no ambiente virtual de aprendizagem, exercícios, quizzes e nos trabalhos -- individuais e em equipe.
 
 ### Projeto Prático
 
 Projetar e implementar um compilador (incluindo Analisador Léxico, Analisador Sintático, Analisador Semântico e Gerador de Código) para uma linguagem simples procedimental.
 
-   - Trabalho 1: Analisador Léxico
+   - Trabalho 1: Analisador Léxico (individual)
    - Trabalho 2: Analisador Sintático
    - Trabalho 3: Analisador Semântico
    - Trabalho 4 (final): Gerador de Código.
@@ -72,7 +72,7 @@ Projetar e implementar um compilador (incluindo Analisador Léxico, Analisador S
 
 + 15% Prova 1, 15% Prova 2
 + 25% Participação em fóruns, quiz e exercícios individuais
-+ 45% Projeto e implementação de um compilador (4 trabalhos práticos) em equipe de até 3 pessoas.
++ 45% Projeto e implementação de um compilador, organizado em 4 trabalhos práticos, sendo o primeiro individual (analisador léxico) e os demais em equipe (com 3 ou 5 pessoas).
 
 ## Material do Curso
 
