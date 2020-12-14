@@ -54,7 +54,7 @@ Projetar e implementar um compilador (incluindo Analisador Léxico, Analisador S
    - Trabalho 1: Analisador Léxico (individual)
    - Trabalho 2: Analisador Sintático
    - Trabalho 3: Analisador Semântico
-   - Trabalho 4 (final): Gerador de Código.
+   - Trabalho 4: Gerador de Código.
 
 ### Provas
    - Prova 1: Análise Léxica, Análise Sintática (Top-down e Bottom-up), Análise Semântica (Escopo e Tipos) - offline, múltipla escolha, correção automática, 10 questões - 24 horas no ar.
@@ -68,7 +68,19 @@ Projetar e implementar um compilador (incluindo Analisador Léxico, Analisador S
 
    - Classroom - UFBA
 
-### Pesos
+### Pesos **(NEW)** 
+
++ 30% Participação em fóruns, quiz e exercícios individuais / em equipe
+   - Participação em fóruns (3%)
+   - Quiz(2%)
+   - Exercícios individuais (10%)
+   - Exercícios em equipe (15%)
++ 70% Projeto e implementação de um compilador:
+   - TP1 (10%)
+   - TP2 (45%)
+   - TP3 (15%)
+
+### Pesos (OLD)
 
 + 15% Prova 1, 15% Prova 2
 + 25% Participação em fóruns, quiz e exercícios individuais
